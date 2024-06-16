@@ -63,7 +63,6 @@ ROMX $0d
 	"Effect Commands"
 ROMX $0e
 	"Enemy Trainers"
-	"Enemy Trainer Parties 2"
 ROMX $0f
 	"Battle Core"
 ROMX $10
@@ -320,6 +319,9 @@ ROMX $7e
 ROMX $7f
 	org $7de0
 	"Stadium 2 Checksums"
+ROMX $80
+	"Enemy Trainer Parties 2"
+
 WRAM0
 	"Stack"
 	"Audio RAM"

@@ -2144,7 +2144,6 @@ Pokedex_SearchForMons:
 	ld [hli], a
 	ld [hl], a
 	ld d, a
-	ld hl, PokedexTypeSearchConversionTable - 1
 	add hl, de
 	ld a, [hl]
 	ld [wDexConvertedMonType], a
@@ -2238,8 +2237,6 @@ Pokedex_SearchForMons:
 	inc b
 	jr nz, .clear_remaining_mons
 	ret
-
-INCLUDE "data/types/search_types.asm"
 
 Pokedex_DisplayTypeNotFoundMessage:
 	xor a
