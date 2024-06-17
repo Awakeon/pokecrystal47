@@ -89,6 +89,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw SmoochumEggMoves
 	dw ElekidEggMoves
+	dw NoEggMoves2
 	dw MagbyEggMoves
 	dw MiltankEggMoves
 	dw NoEggMoves2

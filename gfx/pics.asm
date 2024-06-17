@@ -32,6 +32,8 @@ VenusaurFrontpic:    INCBIN "gfx/pokemon/venusaur/front.animated.2bpp.lz"
 EnteiFrontpic:       INCBIN "gfx/pokemon/entei/front.animated.2bpp.lz"
 SuicuneFrontpic:     INCBIN "gfx/pokemon/suicune/front.animated.2bpp.lz"
 TyphlosionFrontpic:  INCBIN "gfx/pokemon/typhlosion/front.animated.2bpp.lz"
+ElectivireFrontpic:  INCBIN "gfx/pokemon/electivire/front.animated.2bpp.lz"
+ElectivireBackpic:   INCBIN "gfx/pokemon/electivire/back.2bpp.lz"
 
 
 SECTION "Pics 2", ROMX
@@ -773,3 +775,7 @@ INCBIN "gfx/pokemon/unown_y/back.2bpp.lz"
 INCBIN "gfx/pokemon/unown_p/back.2bpp.lz"
 INCBIN "gfx/pokemon/unown_i/back.2bpp.lz"
 INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
+
+SECTION "Pics 20", ROMX
+SylveonFrontpic:     INCBIN "gfx/pokemon/sylveon/front.animated.2bpp.lz"
+SylveonBackpic:      INCBIN "gfx/pokemon/sylveon/back.2bpp.lz"

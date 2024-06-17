@@ -252,4 +252,6 @@ FirstEvoStages::
 	dw LUGIA
 	dw HO_OH
 	dw CELEBI
+	dw ELEKID
+	dw EEVEE
 	assert_table_length NUM_POKEMON

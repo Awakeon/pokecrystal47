@@ -251,4 +251,6 @@ FramesPointers:
 	dba LugiaFrames
 	dba HoOhFrames
 	dba CelebiFrames
+	dba ElectivireFrames
+	dba SylveonFrames
 	assert_table_length NUM_POKEMON

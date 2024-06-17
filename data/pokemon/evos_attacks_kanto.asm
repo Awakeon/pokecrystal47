@@ -1837,6 +1837,7 @@ JynxEvosAttacks:
 	db 0 ; no more level-up moves
 
 ElectabuzzEvosAttacks:
+	dbbw EVOLVE_ITEM, THUNDERSTONE, ELECTIVIRE
 	db 0 ; no more evolutions
 	dbw 1, QUICK_ATTACK
 	dbw 1, LEER
@@ -1936,6 +1937,7 @@ EeveeEvosAttacks:
 	dbbw EVOLVE_ITEM, FIRE_STONE, FLAREON
 	dbbw EVOLVE_HAPPINESS, TR_MORNDAY, ESPEON
 	dbbw EVOLVE_HAPPINESS, TR_NITE, UMBREON
+	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, SYLVEON	
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, TAIL_WHIP

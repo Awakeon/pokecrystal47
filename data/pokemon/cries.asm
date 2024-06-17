@@ -131,6 +131,7 @@ PokemonCries::
 	mon_cry CRY_CATERPIE,      0,  256 ; SCYTHER
 	mon_cry CRY_DROWZEE,     255,  383 ; JYNX
 	mon_cry CRY_VOLTORB,     143,  383 ; ELECTABUZZ
+	mon_cry CRY_VOLTORB,     255,  272 ; ELECTIVIRE
 	mon_cry CRY_CHARMANDER,  255,  176 ; MAGMAR
 	mon_cry CRY_PIDGEOTTO,     0,  256 ; PINSIR
 	mon_cry CRY_SQUIRTLE,     17,  192 ; TAUROS
@@ -142,6 +143,7 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     170,  383 ; VAPOREON
 	mon_cry CRY_VENONAT,      61,  256 ; JOLTEON
 	mon_cry CRY_VENONAT,      16,  160 ; FLAREON
+	mon_cry CRY_VENONAT,     190,  383 ; SYLVEON
 	mon_cry CRY_WEEPINBELL,  170,  383 ; PORYGON
 	mon_cry CRY_GROWLITHE,   240,  129 ; OMANYTE
 	mon_cry CRY_GROWLITHE,   255,  192 ; OMASTAR

@@ -55,6 +55,7 @@ AlphabeticalPokedexOrder:
 	dw ELECTABUZZ
 	dw ELECTRODE
 	dw ELEKID
+	dw ELECTIVIRE
 	dw ENTEI
 	dw ESPEON
 	dw EXEGGCUTE
@@ -220,6 +221,7 @@ AlphabeticalPokedexOrder:
 	dw SUNFLORA
 	dw SUNKERN
 	dw SWINUB
+	dw SYLVEON
 	dw TANGELA
 	dw TAUROS
 	dw TEDDIURSA

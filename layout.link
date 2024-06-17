@@ -200,7 +200,6 @@ ROMX $47
 	"Battle Tower"
 ROMX $48
 	"Pic Pointers"
-	"Pics 1"
 ROMX $49
 	"Unown Pic Pointers"
 	"Pics 2"
@@ -321,6 +320,9 @@ ROMX $7f
 	"Stadium 2 Checksums"
 ROMX $80
 	"Enemy Trainer Parties 2"
+
+ROMX $81
+    "Pics 1"
 
 WRAM0
 	"Stack"

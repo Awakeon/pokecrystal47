@@ -157,6 +157,7 @@ NewPokedexOrder:
 	dw JYNX
 	dw ELEKID
 	dw ELECTABUZZ
+	dw ELECTIVIRE
 	dw MR__MIME
 	dw SMEARGLE
 	dw FARFETCH_D
@@ -187,6 +188,7 @@ NewPokedexOrder:
 	dw FLAREON
 	dw ESPEON
 	dw UMBREON
+	dw SYLVEON
 	dw HORSEA
 	dw SEADRA
 	dw KINGDRA

@@ -135,6 +135,7 @@ MonMenuIconPals:
 	icon_pals GREEN,  GREEN  ; SCYTHER
 	icon_pals PURPLE, PURPLE ; JYNX
 	icon_pals BROWN,  GRAY   ; ELECTABUZZ
+	icon_pals BROWN,  GRAY   ; ELECTIVIRE
 	icon_pals RED,    PURPLE ; MAGMAR
 	icon_pals BROWN,  GRAY   ; PINSIR
 	icon_pals BROWN,  BROWN  ; TAUROS
@@ -146,6 +147,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE ; VAPOREON
 	icon_pals RED,    BROWN  ; JOLTEON
 	icon_pals RED,    RED    ; FLAREON
+	icon_pals PINK,   GRAY   ; SYLVEON
 	icon_pals TEAL,   BLUE   ; PORYGON
 	icon_pals BLUE,   GRAY   ; OMANYTE
 	icon_pals BLUE,   GRAY   ; OMASTAR
