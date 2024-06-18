@@ -1,0 +1,28 @@
+Move changes and additions 
+
+Cross Chop:
+100->120 BP
+80 ACC
+High crit rate
+
+Submission: 
+80 -> 100 BP
+80 -> 100 ACC
+Recoil move
+
+Fury swipes
+18 -> 35 BP
+80 ACC
+Multi-hit move
+
+Mud slap: 
+Special -> Physical 
+20 -> 40 BP
+100 ACC
+lowers speed instead of Accuracy
+
+Rock Smash:
+40 BP
+100 ACC
+100% chance to lower enemy defense 
+
