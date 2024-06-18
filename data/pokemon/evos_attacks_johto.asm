@@ -102,6 +102,7 @@ EvosAttacksPointers2::
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
 	dw ElectivireEvosAttacks
+	dw SylveonEvosAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -1415,4 +1416,18 @@ ElectivireEvosAttacks:
 	dbw 33, SCREECH
 	dbw 41, THUNDERBOLT
 	dbw 49, THUNDER
+	db 0 ; no more level-up moves
+
+SylveonEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	dbw 1, TAIL_WHIP
+	dbw 8, SAND_ATTACK
+	dbw 16, PURSUIT
+	dbw 23, QUICK_ATTACK
+	dbw 30, CONFUSE_RAY
+	dbw 36, FAINT_ATTACK
+	dbw 42, MEAN_LOOK
+	dbw 47, SCREECH
+	dbw 52, MOONLIGHT
 	db 0 ; no more level-up moves

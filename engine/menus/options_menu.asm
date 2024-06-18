@@ -251,8 +251,8 @@ Options_BattleStyle:
 	jr nz, .ToggleSet
 
 .ToggleShift:
-	res BATTLE_SHIFT, [hl]
-	ld de, .Shift
+	set BATTLE_SHIFT, [hl]
+	ld de, .Set
 	jr .Display
 
 .ToggleSet:
