@@ -4,10 +4,10 @@ Name:
 Type:
 HP        =
 Attack    =
-Defense   = 
-Speed     = 
+Defense   =  
 SpAttack  =
 SpDefense = 
+Speed     =
 Notable new moves =
 
 Name: Parasect 
@@ -15,19 +15,19 @@ Type: Bug/Grass -> Bug/Ghost
 HP        = 70
 Attack    = 110
 Defense   = 80
-Speed     = 30
 SpAttack  = 65
 SpDefense = 80
+Speed     = 30
 Notable new moves = Dream eater (now physical), Shadow claw, leech life (80BP)
 
 Name: Pinsir
 Type: Bug 
 HP        =
 Attack    =
-Defense   = 
-Speed     = 
+Defense   =  
 SpAttack  =
 SpDefense = 
+Speed     =
 Notable new moves =  Earthquake, Submission (buffed), Rock slide, Vice grip (reworked)
 
 Name: Yanma 
@@ -35,9 +35,9 @@ Type: Bug/Flying -> Bug/Dragon
 HP        = 65
 Attack    = 65
 Defense   = 45
-Speed     = 95
 SpAttack  = 75
 SpDefense = 45
+Speed     = 95
 Notable new moves = Bug Buzz, Dragon breath, ancient power, Air slash, laser focus 
 
 Name: Electivire
@@ -45,19 +45,30 @@ Type: Electric/Fighting
 HP        = 75
 Attack    = 123 -> 115
 Defense   = 67  -> 70
-Speed     = 95  -> 90
 SpAttack  = 95
 SpDefense = 85
+Speed     = 95  -> 90
 Notable new moves =
+
+Name: Meganium 
+Type: Grass/Fairy
+HP        = 80 -> 85
+Attack    = 82 -> 86
+Defense   = 100
+SpAttack  = 83
+SpDefense = 100
+Speed     = 80
+Notable new moves = Moonblast, Draining Kiss, 
+
 
 Name: Feraligatr
 Type: Water/Dark
 HP        = 85
-Attack    = 105
+Attack    = 105 -> 110
 Defense   = 100
-Speed     = 78
 SpAttack  = 79
 SpDefense = 83
+Speed     = 78
 Notable new moves = Crunch
 
 Name: Typlosion
@@ -65,7 +76,8 @@ Type: Fire/Ground
 HP        = 78
 Attack    = 84
 Defense   = 78
-Speed     = 100
 SpAttack  = 109 -> 110
 SpDefense = 85
+Speed     = 100
 Notable new moves = Earthquake, Magnitude, Earth power
+
