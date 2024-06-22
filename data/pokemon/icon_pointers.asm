@@ -130,7 +130,6 @@ IconPointers:
 	dw ScytherIcon
 	dw JynxIcon
 	dw ElectabuzzIcon
-	dw ElectivireIcon
 	dw MagmarIcon
 	dw PinsirIcon
 	dw TaurosIcon
@@ -142,7 +141,6 @@ IconPointers:
 	dw VaporeonIcon
 	dw JolteonIcon
 	dw FlareonIcon
-	dw SylveonIcon
 	dw PorygonIcon
 	dw OmanyteIcon
 	dw OmastarIcon
@@ -258,4 +256,6 @@ IconPointers:
 	dw LugiaIcon
 	dw HoOhIcon
 	dw CelebiIcon
+	dw ElectivireIcon
+	dw SylveonIcon
 	assert_table_length NUM_POKEMON + 1
