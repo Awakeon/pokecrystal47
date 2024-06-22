@@ -191,7 +191,7 @@ TotodilePokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	refreshscreen
-	pokepic ELECTIVIRE
+	pokepic TOTODILE
 	cry TOTODILE
 	waitbutton
 	closepokepic
@@ -209,7 +209,7 @@ TotodilePokeBallScript:
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke ELECTIVIRE, 5, BERRY
+	givepoke TOTODILE, 5, BERRY
 	closetext
 	applymovement PLAYER, AfterTotodileMovement
 	sjump ElmDirectionsScript
@@ -474,11 +474,12 @@ AideScript_GivePotion:
 	opentext
 	writetext AideText_GiveYouPotion
 	promptbutton
-	verbosegiveitem POTION
+	verbosegiveitem RARE_CANDY
 	writetext AideText_AlwaysBusy
 	waitbutton
 	closetext
 	setscene SCENE_ELMSLAB_NOOP
+	loadmem wLevelCap, 15
 	end
 
 AideScript_WalkBalls1:

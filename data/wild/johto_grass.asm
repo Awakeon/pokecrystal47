@@ -347,7 +347,7 @@ JohtoGrassWildMons:
 	dbw 13, PIDGEY
 	dbw 10, CATERPIE
 	dbw 10, WEEDLE
-	dbw 10, WEEDLE
+	dbw 10, YANMA
 	; day
 	dbw 12, NIDORAN_F
 	dbw 12, NIDORAN_M
@@ -355,14 +355,14 @@ JohtoGrassWildMons:
 	dbw 13, PIDGEY
 	dbw 10, CATERPIE
 	dbw 10, WEEDLE
-	dbw 10, WEEDLE
+	dbw 10, YANMA
 	; nite
 	dbw 12, PSYDUCK
 	dbw 13, HOOTHOOT
 	dbw 14, SPINARAK
 	dbw 15, HOOTHOOT
-	dbw 10, VENONAT
-	dbw 12, VENONAT
+	dbw 10, MURKROW
+	dbw 12, MURKROW
 	dbw 12, VENONAT
 	end_grass_wildmons
 
@@ -428,24 +428,24 @@ JohtoGrassWildMons:
 	dbw 6, GEODUDE
 	dbw 6, SANDSHREW
 	dbw 5, ZUBAT
-	dbw 4, RATTATA
-	dbw 7, ZUBAT
+	dbw 4, DIGLETT
+	dbw 7, SLUGMA
 	dbw 6, ONIX
 	dbw 6, ONIX
 	; day
 	dbw 6, GEODUDE
 	dbw 6, SANDSHREW
 	dbw 5, ZUBAT
-	dbw 4, RATTATA
-	dbw 7, ZUBAT
+	dbw 4, DIGLETT
+	dbw 7, SLUGMA
 	dbw 6, ONIX
 	dbw 6, ONIX
 	; nite
 	dbw 6, GEODUDE
-	dbw 6, RATTATA
-	dbw 5, WOOPER
-	dbw 4, RATTATA
-	dbw 7, ZUBAT
+	dbw 4, DIGLETT
+	dbw 5, SLUGMA
+	dbw 4, DIGLETT
+	dbw 7, SLUGMA
 	dbw 6, ONIX
 	dbw 6, ONIX
 	end_grass_wildmons
@@ -457,25 +457,25 @@ JohtoGrassWildMons:
 	dbw 6, ZUBAT
 	dbw 8, ZUBAT
 	dbw 8, ONIX
-	dbw 6, RATTATA
-	dbw 8, RATTATA
-	dbw 8, RATTATA
+	dbw 6, SLUGMA
+	dbw 8, SANDSHREW
+	dbw 8, SANDSHREW
 	; day
 	dbw 8, GEODUDE
 	dbw 6, ZUBAT
 	dbw 8, ZUBAT
 	dbw 8, ONIX
-	dbw 6, RATTATA
-	dbw 8, RATTATA
-	dbw 8, RATTATA
+	dbw 6, SLUGMA
+	dbw 8, SANDSHREW
+	dbw 8, SANDSHREW
 	; nite
 	dbw 8, GEODUDE
-	dbw 6, ZUBAT
+	dbw 6, SLUGMA
 	dbw 8, WOOPER
 	dbw 8, ONIX
-	dbw 6, RATTATA
-	dbw 8, RATTATA
-	dbw 8, RATTATA
+	dbw 6, SLUGMA
+	dbw 8, SANDSHREW
+	dbw 8, SANDSHREW
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B2F
@@ -565,16 +565,16 @@ JohtoGrassWildMons:
 	def_grass_wildmons ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 5, CATERPIE
-	dbw 5, WEEDLE
+	dbw 5, VENONAT
+	dbw 5, PIKACHU
 	dbw 7, METAPOD
 	dbw 7, KAKUNA
 	dbw 7, PIDGEY
 	dbw 6, PARAS
 	dbw 6, PARAS
 	; day
-	dbw 5, CATERPIE
-	dbw 5, WEEDLE
+	dbw 5, PIKACHU
+	dbw 5, VENONAT
 	dbw 7, METAPOD
 	dbw 7, KAKUNA
 	dbw 7, PIDGEY
@@ -1239,10 +1239,10 @@ JohtoGrassWildMons:
 	; morn
 	dbw 2, PIDGEY
 	dbw 2, SENTRET
-	dbw 3, PIDGEY
+	dbw 3, HOOTHOOT
 	dbw 3, SENTRET
 	dbw 2, RATTATA
-	dbw 3, HOPPIP
+	dbw 3, EKANS
 	dbw 3, HOPPIP
 	; day
 	dbw 2, PIDGEY
@@ -1258,8 +1258,8 @@ JohtoGrassWildMons:
 	dbw 3, HOOTHOOT
 	dbw 3, RATTATA
 	dbw 2, RATTATA
-	dbw 3, HOOTHOOT
-	dbw 3, HOOTHOOT
+	dbw 3, EKANS
+	dbw 3, EKANS
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_30
@@ -1275,17 +1275,17 @@ JohtoGrassWildMons:
 	; day
 	dbw 3, PIDGEY
 	dbw 3, CATERPIE
-	dbw 4, CATERPIE
+	dbw 4, LEDYBA
 	dbw 4, PIDGEY
 	dbw 3, WEEDLE
 	dbw 4, HOPPIP
 	dbw 4, HOPPIP
 	; nite
 	dbw 3, SPINARAK
-	dbw 3, HOOTHOOT
+	dbw 3, SPINARAK
 	dbw 4, POLIWAG
-	dbw 4, HOOTHOOT
-	dbw 3, ZUBAT
+	dbw 4, WEEDLE
+	dbw 3, EKANS
 	dbw 4, HOOTHOOT
 	dbw 4, HOOTHOOT
 	end_grass_wildmons
@@ -1321,64 +1321,64 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 4, EKANS
-	dbw 5, RATTATA
+	dbw 4, NIDORAN_F
+	dbw 5, NIDORAN_M 
 	dbw 7, BELLSPROUT
 	dbw 6, HOPPIP
 	dbw 7, PIDGEY
-	dbw 7, HOPPIP
+	dbw 7, WOOPER
 	dbw 7, HOPPIP
 	; day
-	dbw 4, EKANS
-	dbw 5, RATTATA
+	dbw 4, NIDORAN_F
+	dbw 5, NIDORAN_M
 	dbw 7, BELLSPROUT
 	dbw 6, HOPPIP
 	dbw 7, PIDGEY
-	dbw 7, HOPPIP
+	dbw 7, WOOPER
 	dbw 7, HOPPIP
 	; nite
-	dbw 4, WOOPER
-	dbw 5, RATTATA
+	dbw 4, NIDORAN_F
+	dbw 5, NIDORAN_M
 	dbw 7, BELLSPROUT
 	dbw 6, ZUBAT
 	dbw 7, HOOTHOOT
-	dbw 7, GASTLY
-	dbw 7, GASTLY
+	dbw 7, WOOPER
+	dbw 7, MAREEP
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_33
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 6, RATTATA
-	dbw 6, SPEAROW
+	dbw 7, PSYDUCK
+	dbw 6, PHANPY
 	dbw 6, GEODUDE
-	dbw 6, HOPPIP
+	dbw 7, PSYDUCK
 	dbw 7, EKANS
-	dbw 7, HOPPIP
+	dbw 7, MACHOP
 	dbw 7, HOPPIP
 	; day
-	dbw 6, RATTATA
-	dbw 6, SPEAROW
+	dbw 7, PSYDUCK
+	dbw 6, PHANPY
 	dbw 6, GEODUDE
 	dbw 6, HOPPIP
 	dbw 7, EKANS
-	dbw 7, HOPPIP
-	dbw 7, HOPPIP
+	dbw 7, PSYDUCK
+	dbw 7, MACHOP
 	; nite
-	dbw 6, RATTATA
-	dbw 6, ZUBAT
+	dbw 6, PHANPY
+	dbw 6, EKANS
 	dbw 6, GEODUDE
 	dbw 6, ZUBAT
-	dbw 7, RATTATA
-	dbw 7, RATTATA
-	dbw 7, RATTATA
+	dbw 7, MACHOP
+	dbw 7, PSYDUCK
+	dbw 7, PSYDUCK
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_34
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 10, SNUBBULL
-	dbw 11, RATTATA
+	dbw 11, SNUBBULL
 	dbw 12, PIDGEY
 	dbw 10, ABRA
 	dbw 12, JIGGLYPUFF
@@ -1386,7 +1386,7 @@ JohtoGrassWildMons:
 	dbw 10, DITTO
 	; day
 	dbw 10, SNUBBULL
-	dbw 11, RATTATA
+	dbw 11, SNUBBULL
 	dbw 12, PIDGEY
 	dbw 10, ABRA
 	dbw 12, JIGGLYPUFF
@@ -1394,7 +1394,7 @@ JohtoGrassWildMons:
 	dbw 10, DITTO
 	; nite
 	dbw 12, DROWZEE
-	dbw 11, RATTATA
+	dbw 11, SNUBBULL
 	dbw 12, HOOTHOOT
 	dbw 10, ABRA
 	dbw 12, JIGGLYPUFF
@@ -1408,7 +1408,7 @@ JohtoGrassWildMons:
 	dbw 12, SNUBBULL
 	dbw 14, PIDGEY
 	dbw 13, GROWLITHE
-	dbw 10, ABRA
+	dbw 10, HOUNDOUR
 	dbw 12, JIGGLYPUFF
 	dbw 10, DITTO
 	dbw 12, YANMA
@@ -1416,7 +1416,7 @@ JohtoGrassWildMons:
 	dbw 12, SNUBBULL
 	dbw 14, PIDGEY
 	dbw 13, GROWLITHE
-	dbw 10, ABRA
+	dbw 10, HOUNDOUR
 	dbw 12, JIGGLYPUFF
 	dbw 10, DITTO
 	dbw 12, YANMA
@@ -1424,7 +1424,7 @@ JohtoGrassWildMons:
 	dbw 12, DROWZEE
 	dbw 14, HOOTHOOT
 	dbw 13, PSYDUCK
-	dbw 10, ABRA
+	dbw 10, HOUNDOUR
 	dbw 12, JIGGLYPUFF
 	dbw 10, DITTO
 	dbw 12, YANMA
@@ -1662,24 +1662,24 @@ JohtoGrassWildMons:
 	dbw 3, GEODUDE
 	dbw 3, RATTATA
 	dbw 2, PHANPY
-	dbw 2, RATTATA
-	dbw 2, RATTATA
+	dbw 2, MAREEP
+	dbw 2, MAREEP
 	; day
 	dbw 2, GEODUDE
 	dbw 2, SPEAROW
 	dbw 3, GEODUDE
 	dbw 3, RATTATA
-	dbw 2, RATTATA
-	dbw 2, RATTATA
+	dbw 2, PHANPY
+	dbw 2, PHANPY
 	dbw 2, RATTATA
 	; nite
 	dbw 2, GEODUDE
 	dbw 2, RATTATA
 	dbw 3, GEODUDE
 	dbw 3, RATTATA
-	dbw 2, RATTATA
-	dbw 2, RATTATA
-	dbw 2, RATTATA
+	dbw 2, MAREEP
+	dbw 2, JIGGLYPUFF
+	dbw 2, JIGGLYPUFF
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_OUTSIDE
