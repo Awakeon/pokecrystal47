@@ -255,4 +255,5 @@ Pokered_MonIndices:
 	db WOBBUFFET
 	db ELECTIVIRE
 	db SYLVEON
+    db HONCHKROW
 	assert_table_length NUM_POKEMON + 1

@@ -141,6 +141,7 @@ AlphabeticalPokedexOrder:
 	dw MR__MIME
 	dw MUK
 	dw MURKROW
+	dw HONCHKROW
 	dw NATU
 	dw NIDOKING
 	dw NIDOQUEEN

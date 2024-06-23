@@ -779,3 +779,5 @@ INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 SECTION "Pics 20", ROMX
 SylveonFrontpic:     INCBIN "gfx/pokemon/sylveon/front.animated.2bpp.lz"
 SylveonBackpic:      INCBIN "gfx/pokemon/sylveon/back.2bpp.lz"
+HonchkrowFrontpic:   INCBIN "gfx/pokemon/Honchkrow/front.animated.2bpp.lz"
+HonchkrowBackpic:    INCBIN "gfx/pokemon/Honchkrow/back.2bpp.lz"

@@ -263,4 +263,5 @@ MonMenuIconPals:
 	icon_pals GREEN,  PINK   ; CELEBI
 	icon_pals BROWN,  GRAY   ; ELECTIVIRE
 	icon_pals PINK,   GRAY   ; SYLVEON
+	icon_pals BLUE,   RED    ; HONCHKROW
 	assert_table_length NUM_POKEMON

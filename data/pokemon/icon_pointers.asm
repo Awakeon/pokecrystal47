@@ -258,4 +258,5 @@ IconPointers:
 	dw CelebiIcon
 	dw ElectivireIcon
 	dw SylveonIcon
+	dw HonchkrowIcon
 	assert_table_length NUM_POKEMON + 1

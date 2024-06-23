@@ -103,6 +103,7 @@ EvosAttacksPointers2::
 	dw CelebiEvosAttacks
 	dw ElectivireEvosAttacks
 	dw SylveonEvosAttacks
+	dw HonchkrowEvosAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -719,6 +720,7 @@ UmbreonEvosAttacks:
 	db 0 ; no more level-up moves
 
 MurkrowEvosAttacks:
+	dbbw EVOLVE_LEVEL, 38, MURKROW
 	db 0 ; no more evolutions
 	dbw 1, PECK
 	dbw 11, PURSUIT
@@ -1430,4 +1432,14 @@ SylveonEvosAttacks:
 	dbw 42, MEAN_LOOK
 	dbw 47, SCREECH
 	dbw 52, MOONLIGHT
+	db 0 ; no more level-up moves
+
+HonchkrowEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, PECK
+	dbw 11, PURSUIT
+	dbw 16, HAZE
+	dbw 26, NIGHT_SHADE
+	dbw 31, FAINT_ATTACK
+	dbw 41, MEAN_LOOK
 	db 0 ; no more level-up moves
