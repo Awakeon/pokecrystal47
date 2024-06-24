@@ -7144,6 +7144,17 @@ GiveExperiencePoints:
 	inc de
 	dec c
 	jr nz, .stat_exp_loop
+	pop bc
+	ld hl, MON_LEVEL
+	add hl, bc
+	ld a, [wLevelCap]
+	push bc
+	ld b, a
+	ld a, [hl]
+	cp b
+	pop bc
+	jp nc, .next_mon
+	push bc
 	xor a
 	pop bc
 	ld hl, MON_LEVEL

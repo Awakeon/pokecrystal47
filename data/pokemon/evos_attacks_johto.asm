@@ -1437,7 +1437,9 @@ SylveonEvosAttacks:
 HonchkrowEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, PECK
-	dbw 11, PURSUIT
+	dbw 12, PURSUIT
+	dbw 13, WING_ATTACK
+	dbw 14, ICY_WIND
 	dbw 16, HAZE
 	dbw 26, NIGHT_SHADE
 	dbw 31, FAINT_ATTACK

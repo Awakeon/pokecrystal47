@@ -310,6 +310,7 @@ CaterpieEvosAttacks:
 	dbbw EVOLVE_LEVEL, 7, METAPOD
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
+	dbw 1, AQUA_CUTTER
 	dbw 1, STRING_SHOT
 	db 0 ; no more level-up moves
 
