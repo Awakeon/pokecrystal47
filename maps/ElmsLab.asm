@@ -471,6 +471,7 @@ AideScript_WalkPotion2:
 	end
 
 AideScript_GivePotion:
+	loadmem wLevelCap, 40
 	opentext
 	writetext AideText_GiveYouPotion
 	promptbutton
