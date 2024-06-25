@@ -7167,6 +7167,7 @@ GiveExperiencePoints:
 	pop bc
 	jp nc, .next_mon
 	push bc
+	xor a
 	ldh [hMultiplicand + 0], a
 	ldh [hMultiplicand + 1], a
 	ld a, [wEnemyMonBaseExp]
@@ -7560,7 +7561,6 @@ AnimateExpBar:
 	ld a, [wCurBattleMon]
 	cp [hl]
 	jp nz, .finish
-
 	ld a, [wLevelCap]
 	push bc
 	ld b, a
