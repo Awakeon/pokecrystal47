@@ -81,3 +81,12 @@ SpDefense = 85
 Speed     = 100
 Notable new moves = Earthquake, Magnitude, Earth power
 
+Name: Johtoean Carnivine
+Type: Poison/Flying
+HP        = 74  -> 102
+Attack    = 100 -> 90
+Defense   = 72  -> 76
+SpAttack  = 90  -> 110
+SpDefense = 72  -> 76
+Speed     = 46 
+Notable new moves = Opiate Mist, Venom Drain 
