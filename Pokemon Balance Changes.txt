@@ -81,3 +81,32 @@ SpDefense = 85
 Speed     = 100
 Notable new moves = Earthquake, Magnitude, Earth power
 
+Name: Johtoean Carnivine
+Type: Poison/Flying
+HP        = 74  -> 102
+Attack    = 100 -> 90
+Defense   = 72  -> 76
+SpAttack  = 90  -> 110
+SpDefense = 72  -> 76
+Speed     = 46 
+Notable new moves = Opiate Mist, Venom Drain 
+
+Name: Johtoean Seaking
+Type: Ice/Fairy
+HP        = 80 -> 60
+Attack    = 92 -> 90
+Defense   = 65 -> 75
+SpAttack  = 65 -> 60
+SpDefense = 80 -> 105
+Speed     = 68 -> 60
+Notable new moves = Play rough, Icicle crash, Ice shard.
+
+Name:
+Type:
+HP        =
+Attack    =
+Defense   =  
+SpAttack  =
+SpDefense = 
+Speed     =
+Notable new moves =
