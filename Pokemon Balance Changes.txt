@@ -101,12 +101,43 @@ SpDefense = 80 -> 105
 Speed     = 68 -> 60
 Notable new moves = Play rough, Icicle crash, Ice shard.
 
-Name:
-Type:
-HP        =
-Attack    =
-Defense   =  
-SpAttack  =
-SpDefense = 
-Speed     =
+Name:Ariados
+Type:Bug/Poison
+HP        = 70 -> 100
+Attack    = 90 -> 80
+Defense   = 70 -> 80
+SpAttack  = 60
+SpDefense = 70 -> 90
+Speed     = 40
+Notable new moves = Spider web now works like Leech seed 
+
+Name: Dragonair
+Type: Dragon/Water
+HP        = 61 -> 70
+Attack    = 84 -> 100
+Defense   = 65
+SpAttack  = 70 -> 90
+SpDefense = 70
+Speed     = 70 -> 90
 Notable new moves =
+
+Name: Mr. Mime
+Type: Psychic -> Psychic/Fairy
+HP        = 40 -> 60
+Attack    = 45 -> 90
+Defense   = 65
+SpAttack  = 100
+SpDefense = 120
+Speed     = 90
+Notable new moves =
+
+Name: Lickitung
+Type: Normal/Poison
+HP        = 90
+Attack    = 55 -> 65
+Defense   = 75 
+SpAttack  = 60
+SpDefense = 75
+Speed     = 30
+Notable new moves = Lick is now a Poison Move
+
