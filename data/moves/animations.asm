@@ -280,6 +280,7 @@ BattleAnimations::
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
     dw BattleAnim_Aquacutter
+	dw BattleAnim_IceShard
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -4597,9 +4598,28 @@ BattleAnim_BeatUp:
 
 BattleAnim_Aquacutter:
 	anim_1gfx BATTLE_ANIM_GFX_CUT
-	anim_sound 0, 1, SFX_CUT
+	anim_sound 6, 2, SFX_BUBBLEBEAM
 	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 152, 40, $0
 	anim_obj BATTLE_ANIM_OBJ_CUT_LONG_DOWN_LEFT, 148, 36, $0
+	anim_wait 32
+	anim_ret
+
+BattleAnim_IceShard:
+	anim_1gfx BATTLE_ANIM_GFX_ICE
+.loop
+	anim_sound 6, 2, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_POWDER_SNOW,   8, 0,  11, 0, $23
+	anim_wait 2
+	anim_sound 6, 2, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_POWDER_SNOW,   8, 0,  10, 0, $24
+	anim_wait 2
+	anim_sound 6, 2, SFX_SHINE
+	anim_obj BATTLE_ANIM_OBJ_POWDER_SNOW,   8, 0,  12, 0, $23
+	anim_wait 2
+	anim_loop 2, .loop
+	anim_bgeffect BATTLE_BG_EFFECT_WHITE_HUES, $0, $8, $0
+	anim_wait 40
+	anim_call BattleAnimSub_Ice
 	anim_wait 32
 	anim_ret
 

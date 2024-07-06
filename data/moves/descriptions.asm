@@ -257,6 +257,7 @@ MoveDescriptions1:
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 	dw AquaCutterDescription
+	dw IceShardDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1269,3 +1270,7 @@ BeatUpDescription:
 AquaCutterDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
+
+IceShardDescription:
+    db   "A weak move that"
+	next "goes first.@"
