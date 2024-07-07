@@ -241,7 +241,7 @@ ChikoritaPokeBallScript:
 	closetext
 	applymovement PLAYER, AfterChikoritaMovement
 	sjump ElmDirectionsScript
-
+   
 DidntChooseStarterScript:
 	writetext DidntChooseStarterText
 	waitbutton
@@ -471,7 +471,54 @@ AideScript_WalkPotion2:
 	end
 
 AideScript_GivePotion:
-	loadmem wLevelCap, 40
+    writetext DoYouWantLevelCaps
+	yesorno
+	iffalse .NoCap
+    loadmem wLevelCap, 15
+	writetext DoYouWantHardMode
+	yesorno
+	iffalse .CapHardMode
+	opentext
+	writetext AideText_GiveYouPotion
+	promptbutton
+	verbosegiveitem RARE_CANDY
+	writetext AideText_AlwaysBusy
+	waitbutton
+	closetext
+	setscene SCENE_ELMSLAB_NOOP
+	end
+
+.NoCap
+	writetext DoYouWantHardMode
+	yesorno
+	iffalse .AideGivePotion
+	setflag ENGINE_HARD_MODE
+	opentext
+	writetext AideText_GiveYouPotion
+	promptbutton
+	verbosegiveitem POTION
+	writetext AideText_AlwaysBusy
+	waitbutton
+	closetext
+	setscene SCENE_ELMSLAB_NOOP
+	end
+
+.CapHardMode
+	writetext DoYouWantHardMode
+	yesorno
+	iffalse .AideGivePotion
+	setflag ENGINE_HARD_MODE
+	opentext
+	writetext AideText_GiveYouPotion
+	promptbutton
+	verbosegiveitem RARE_CANDY
+	writetext AideText_AlwaysBusy
+	waitbutton
+	closetext
+	setscene SCENE_ELMSLAB_NOOP
+	end
+
+.AideGivePotion
 	opentext
 	writetext AideText_GiveYouPotion
 	promptbutton
@@ -1214,6 +1261,16 @@ ElmsLabMonEggText: ; unreferenced
 	text "It's the #MON"
 	line "EGG being studied"
 	cont "by PROF.ELM."
+	done
+
+DoYouWantHardMode:
+    text "Would you like to"
+    line "play on hard mode?" 
+    done
+
+DoYouWantLevelCaps:
+    text "Do you want hard"
+	line "level caps?"
 	done
 
 AideText_GiveYouPotion:

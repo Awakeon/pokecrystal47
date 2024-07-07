@@ -142,6 +142,7 @@ Rival1Group:
 	db "?@", TRAINERTYPE_NORMAL
 	db 5
 	dw CHIKORITA
+	dn 14, 15, 15, 15
 	db -1 ; end
 
 	next_list_item ; RIVAL1 (2)
