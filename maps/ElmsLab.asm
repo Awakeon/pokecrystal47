@@ -471,10 +471,12 @@ AideScript_WalkPotion2:
 	end
 
 AideScript_GivePotion:
+    opentext
     writetext DoYouWantLevelCaps
 	yesorno
 	iffalse .NoCap
-    loadmem wLevelCap, 15
+  loadmem wLevelCap, 15
+  opentext
 	writetext DoYouWantHardMode
 	yesorno
 	iffalse .CapHardMode
@@ -489,6 +491,7 @@ AideScript_GivePotion:
 	end
 
 .NoCap
+  opentext
 	writetext DoYouWantHardMode
 	yesorno
 	iffalse .AideGivePotion
@@ -504,6 +507,7 @@ AideScript_GivePotion:
 	end
 
 .CapHardMode
+  opentext
 	writetext DoYouWantHardMode
 	yesorno
 	iffalse .AideGivePotion
