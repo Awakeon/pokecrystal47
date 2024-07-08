@@ -26,3 +26,120 @@ Rock Smash:
 100 ACC
 100% chance to lower enemy defense 
 
+Rock throw: 
+90 -> 100 ACC
+
+String shot:
+95 -> 100 ACC
+
+Spider web:
+No longer traps instead acts like leech seed 
+
+Solar Beam: Changed to a recoil move
+
+Cut:
+55 -> 70BP
+95 -> 100 ACC
+Normal -> Bug 
+
+Sky Attack: Changed into being a Brave bird clone 
+
+Rock smash:
+40 -> 60BP
+
+Smog: 
+35 -> 50BP
+75 -> 100 ACC
+
+Spike Cannon:
+Normal -> Steel
+
+Iron Tail:
+100 -> 120BP
+75 -> 85BP
+
+Vice grip:
+55 -> 90BP
+Normal -> Bug 
+
+Comet Punch:
+18 -> 25BP
+100 ACC
+Normal -> Fighting 
+
+Barrage:
+15 -> 25BP
+85 -> 100 ACC
+Normal -> Psychic 
+
+Mega Punch:
+80 -> 90BP
+85 -> 90 ACC
+Normal -> Fighting
+Now has a 20% chance to increase attack 
+
+Skull bash:
+100 -> 90 ACC
+Normal -> Rock
+
+Stomp:
+Normal -> Ground 
+
+Rage: 
+Normal -> Dragon
+
+Flash:
+60BP
+Normal->Electric 
+
+Fury Attack:
+18 -> 25 BP
+85 -> 100 ACC
+Normal -> Flying 
+
+Horn drill:
+150 BP
+30 -> 50 ACC
+Normal -> Ground 
+
+Guillotine:
+150 BP
+30 -> 50 ACC
+Normal -> Bug 
+
+Zap Cannon:
+100 -> 150 BP
+
+Petal dance:
+70 -> 120 BP
+
+Twister:
+40 -> 70 BP
+
+Triple Kick: 
+10 -> 15 BP
+
+Return: 
+Normal -> Fairy
+
+Frustration:
+Normal -> Dark
+
+Absorb: 
+20 -> 40BP 
+
+Wrap:
+15 -> 35 BP
+Normal -> Dragon 
+
+Poison Gas:
+90 -> 100 ACC
+
+Bone club:
+65 -> 80 BP
+85 -> 100 ACC
+
+Bonemerang:
+Ground -> Ghost
+
+
