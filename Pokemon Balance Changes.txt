@@ -112,7 +112,7 @@ Speed     = 40
 Notable new moves = Spider web now works like Leech seed 
 
 Name: Dragonair
-Type: Dragon/Water
+Type: Dragon -> Dragon/Water
 HP        = 61 -> 70
 Attack    = 84 -> 100
 Defense   = 65
@@ -132,7 +132,7 @@ Speed     = 90
 Notable new moves =
 
 Name: Lickitung
-Type: Normal/Poison
+Type: Normal -> Normal/Poison
 HP        = 90
 Attack    = 55 -> 65
 Defense   = 75 
@@ -140,4 +140,35 @@ SpAttack  = 60
 SpDefense = 75
 Speed     = 30
 Notable new moves = Lick is now a Poison Move
+
+Name: Suicune 
+Type: Water -> Ice
+HP        = 100 
+Attack    = 75
+Defense   = 115
+SpAttack  = 90
+SpDefense = 115
+Speed     = 85
+Notable new moves =
+
+Name: Medicham
+Type: Psychic/Fighting
+HP        = 60 
+Attack    = 60 -> 120
+Defense   = 75
+SpAttack  = 60
+SpDefense = 75
+Speed     = 80
+Notable new moves =
+
+Name: 
+Type:
+HP        =
+Attack    =
+Defense   =  
+SpAttack  =
+SpDefense = 
+Speed     =
+Notable new moves =
+
 
