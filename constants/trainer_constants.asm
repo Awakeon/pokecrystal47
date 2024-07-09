@@ -36,7 +36,8 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass BUGSY ; 3
 	const BUGSY1
-  const BUGSY1_HARD
+    const BUGSY1_HARD
+	
 	trainerclass MORTY ; 4
 	const MORTY1
 

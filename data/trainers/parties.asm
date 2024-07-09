@@ -52,6 +52,22 @@ BugsyGroup:
 	dw QUICK_ATTACK, LEER, FURY_CUTTER, NO_MOVE
 	db -1 ; end
 
+	next_list_item ; BUGSY (2)
+	db "BUGSY@", TRAINERTYPE_MOVES
+	db 16
+	dw BUTTERFREE
+	dw TACKLE, STRING_SHOT, HARDEN, NO_MOVE
+	db 16
+	dw BEEDRILL
+	dw POISON_STING, STRING_SHOT, FURY_CUTTER, NO_MOVE
+	db 16
+	dw KABUTO
+	dw ROCK_THROW, WATERFALL, FURY_CUTTER, NO_MOVE
+	db 18
+	dw SCYTHER
+	dw QUICK_ATTACK, LEER, FURY_CUTTER, NO_MOVE
+	db -1 ; end
+
 	end_list_items
 
 MortyGroup:
