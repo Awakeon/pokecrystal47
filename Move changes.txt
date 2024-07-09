@@ -143,6 +143,6 @@ Bonemerang:
 Ground -> Ghost
 
 Screech:
-60 BP
+80 BP
 85 -> 90 ACC
-100% to lower Defense 
+100% to lower Defense
