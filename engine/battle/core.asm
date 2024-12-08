@@ -7561,6 +7561,7 @@ AnimateExpBar:
 	ld a, [wCurBattleMon]
 	cp [hl]
 	jp nz, .finish
+	
 	ld a, [wLevelCap]
 	push bc
 	ld b, a
