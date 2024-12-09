@@ -29,6 +29,7 @@ endr
 	dw Dragon
 	dw Dark
 	dw Fairy
+	dw Rock_Mag
 	assert_table_length TYPES_END
 
 Normal:    db "NORMAL@"
@@ -51,3 +52,5 @@ Steel:     db "STEEL@"
 Dragon:    db "DRAGON@"
 Dark:      db "DARK@"
 Fairy:     db "FAIRY@"
+Rock_Mag:  db "ROCK@"
+
