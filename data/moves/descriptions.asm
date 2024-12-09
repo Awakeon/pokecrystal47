@@ -258,6 +258,15 @@ MoveDescriptions1:
 	dw BeatUpDescription
 	dw AquaCutterDescription
 	dw IceShardDescription
+	;IRON FIST MOVES
+	dw FirePunchPlusDescription
+	dw ThunderpunchPlusDescription
+	dw IcePunchPlusDescription
+	dw CometPunchPlusDescription
+	dw DizzyPunchPlusDescription
+	dw DynamicpunchPlusDescription
+	dw MachPunchPlusDescription
+	dw MegaPunchPlusDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1274,3 +1283,37 @@ AquaCutterDescription:
 IceShardDescription:
     db   "A weak move that"
 	next "goes first.@"
+
+;IRON FIST MOVES
+
+FirePunchPlusDescription:
+	db   "A fiery punch. May"
+	next "cause a burn.@"
+
+IcePunchPlusDescription:
+	db   "An icy punch. May"
+	next "cause freezing.@"
+
+ThunderpunchPlusDescription:
+	db   "An electric punch."
+	next "It may paralyze.@"
+
+CometPunchPlusDescription:
+	db   "Repeatedly punches"
+	next "2-5 times.@"
+
+DizzyPunchPlusDescription:
+	db   "An attack that may"
+	next "cause confusion.@"
+
+DynamicpunchPlusDescription:
+	db   "An attack that"
+	next "always confuses.@"
+
+MachPunchPlusDescription:
+	db   "A fast punch that"
+	next "lands first.@"
+
+MegaPunchPlusDescription:
+	db   "A powerful punch"
+	next "thrown very hard.@"

@@ -261,8 +261,8 @@ BattleAnimations::
 	dw BattleAnim_IronTail
 	dw BattleAnim_MetalClaw
 	dw BattleAnim_VitalThrow
-	dw BattleAnim_MorningSun
-	dw BattleAnim_Synthesis
+	dw BattleAnim_MorningSun                                     
+	dw BattleAnim_Synthesis                       
 	dw BattleAnim_Moonlight
 	dw BattleAnim_HiddenPower
 	dw BattleAnim_CrossChop
@@ -281,6 +281,15 @@ BattleAnimations::
 	dw BattleAnim_BeatUp
     dw BattleAnim_Aquacutter
 	dw BattleAnim_IceShard
+	;IRON FIST MOVES
+	dw BattleAnim_FirePunchPlus
+	dw BattleAnim_ThunderpunchPlus
+	dw BattleAnim_IcePunchPlus
+	dw BattleAnim_CometPunchPlus
+	dw BattleAnim_DizzyPunchPlus
+	dw BattleAnim_DynamicpunchPlus
+	dw BattleAnim_MachPunchPlus
+	dw BattleAnim_MegaPunchPlus
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -4621,6 +4630,97 @@ BattleAnim_IceShard:
 	anim_wait 40
 	anim_call BattleAnimSub_Ice
 	anim_wait 32
+	anim_ret
+
+;IRON FIST MOVES
+BattleAnim_FirePunchPlus:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_FIRE
+	anim_obj BATTLE_ANIM_OBJ_PUNCH_SHAKE, 136, 56, $43
+	anim_call BattleAnimSub_Fire
+	anim_wait 16
+	anim_ret
+
+BattleAnim_ThunderpunchPlus:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_LIGHTNING
+	anim_obj BATTLE_ANIM_OBJ_PUNCH_SHAKE, 136, 56, $43
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $2
+	anim_sound 0, 1, SFX_THUNDER
+	anim_obj BATTLE_ANIM_OBJ_THUNDER_RIGHT, 152, 68, $0
+	anim_wait 64
+	anim_ret
+
+BattleAnim_IcePunchPlus:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_ICE
+	anim_obj BATTLE_ANIM_OBJ_PUNCH_SHAKE, 136, 56, $43
+	anim_call BattleAnimSub_Ice
+	anim_wait 32
+	anim_ret
+
+BattleAnim_CometPunchPlus:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_sound 0, 1, SFX_COMET_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_PUNCH, 144, 48, $0
+	anim_wait 6
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 144, 48, $0
+	anim_wait 8
+	anim_ret
+
+BattleAnim_DizzyPunchPlus:
+	anim_2gfx BATTLE_ANIM_GFX_STATUS, BATTLE_ANIM_GFX_HIT
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 40, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_SMALL_YFIX, 136, 64, $0
+	anim_wait 16
+	anim_sound 0, 1, SFX_KINESIS
+	anim_obj BATTLE_ANIM_OBJ_CHICK, 136, 24, $15
+	anim_obj BATTLE_ANIM_OBJ_CHICK, 136, 24, $aa
+	anim_obj BATTLE_ANIM_OBJ_CHICK, 136, 24, $bf
+	anim_wait 96
+	anim_ret
+
+BattleAnim_DynamicpunchPlus:
+	anim_2gfx BATTLE_ANIM_GFX_HIT, BATTLE_ANIM_GFX_EXPLOSION
+	anim_sound 0, 1, SFX_COMET_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_PUNCH_SHAKE, 136, 56, $43
+	anim_wait 16
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $12
+	anim_call BattleAnimSub_Explosion2
+	anim_wait 16
+	anim_ret
+
+BattleAnim_MachPunchPlus:
+	anim_2gfx BATTLE_ANIM_GFX_SPEED, BATTLE_ANIM_GFX_HIT
+	anim_bgeffect BATTLE_BG_EFFECT_HIDE_MON, $0, BG_EFFECT_USER, $0
+	anim_sound 0, 0, SFX_MENU
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 24, 88, $2
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 32, 88, $1
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 40, 88, $0
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 48, 88, $80
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 56, 88, $81
+	anim_obj BATTLE_ANIM_OBJ_SPEED_LINE, 64, 88, $82
+	anim_wait 12
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_PUNCH, 136, 56, $0
+	anim_wait 6
+	anim_obj BATTLE_ANIM_OBJ_HIT_YFIX, 136, 56, $0
+	anim_wait 8
+	anim_bgeffect BATTLE_BG_EFFECT_SHOW_MON, $0, BG_EFFECT_USER, $0
+	anim_wait 16
+	anim_ret
+
+BattleAnim_MegaPunchPlus:
+	anim_1gfx BATTLE_ANIM_GFX_HIT
+	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
+	anim_wait 48
+	anim_bgeffect BATTLE_BG_EFFECT_FLASH_INVERTED, $0, $8, $3
+.loop
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj BATTLE_ANIM_OBJ_PUNCH, 136, 56, $0
+	anim_obj BATTLE_ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
+	anim_wait 6
+	anim_obj BATTLE_ANIM_OBJ_PUNCH, 136, 56, $0
+	anim_wait 6
+	anim_loop 3, .loop
 	anim_ret
 
 BattleAnimSub_Drain:

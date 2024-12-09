@@ -253,4 +253,13 @@ MoveNames::
 	li "BEAT UP"
 	li "AQUA CUTTER"
 	li "ICE SHARD"
+	;IRON FIST MOVES
+	li "FIRE PUNCH"
+	li "THUNDERPUNCH"
+	li "ICE PUNCH"
+	li "COMET PUNCH"
+	li "DIZZY PUNCH"
+	li "DYNAMICPUNCH"
+	li "MACH PUNCH"
+	li "MEGA PUNCH"
 	assert_list_length NUM_ATTACKS

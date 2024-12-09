@@ -259,6 +259,16 @@
 	const BEAT_UP      ; fb
 	const AQUA_CUTTER  ; fc
 	const ICE_SHARD    ; fd
+	;IRON FIST MOVES
+	const FIRE_PUNCH_PLUS 
+    const THUNDER_PUNCH_PLUS
+    const ICE_PUNCH_PLUS	
+    const COMET_PUNCH_PLUS
+    const DIZZY_PUNCH_PLUS
+    const DYNAMICPUNCH_PLUS
+    const MACH_PUNCH_PLUS
+    const MEGA_PUNCH_PLUS
+
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

@@ -1,10 +1,11 @@
 	db "PUNCHING@" ; species name
 	dw 407, 1110 ; height, weight
 
-	db   "To increase the"
+	
+	db   "Ability: Iron Fist"
+	next "To increase the"
 	next "strength of all"
-	next "its punch moves,"
+	page "its punch moves,"
 
-	page "it spins its arms"
-	next "just before making"
-	next "contact.@"
+	next "it spins its arms"
+	next "before Punching.@"
