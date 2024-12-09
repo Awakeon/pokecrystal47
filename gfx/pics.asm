@@ -210,7 +210,6 @@ FlaaffyFrontpic:     INCBIN "gfx/pokemon/flaaffy/front.animated.2bpp.lz"
 IvysaurFrontpic:     INCBIN "gfx/pokemon/ivysaur/front.animated.2bpp.lz"
 FurretFrontpic:      INCBIN "gfx/pokemon/furret/front.animated.2bpp.lz"
 CyndaquilFrontpic:   INCBIN "gfx/pokemon/cyndaquil/front.animated.2bpp.lz"
-HitmonchanFrontpic:  INCBIN "gfx/pokemon/hitmonchan/front.animated.2bpp.lz"
 QuagsireFrontpic:    INCBIN "gfx/pokemon/quagsire/front.animated.2bpp.lz"
 
 
@@ -781,3 +780,4 @@ SylveonFrontpic:     INCBIN "gfx/pokemon/sylveon/front.animated.2bpp.lz"
 SylveonBackpic:      INCBIN "gfx/pokemon/sylveon/back.2bpp.lz"
 HonchkrowFrontpic:   INCBIN "gfx/pokemon/Honchkrow/front.animated.2bpp.lz"
 HonchkrowBackpic:    INCBIN "gfx/pokemon/Honchkrow/back.2bpp.lz"
+HitmonchanFrontpic:  INCBIN "gfx/pokemon/hitmonchan/front.animated.2bpp.lz"

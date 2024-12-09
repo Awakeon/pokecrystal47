@@ -3,9 +3,9 @@
 
 	
 	db   "Ability: Iron Fist"
-	next "To increase the"
-	next "strength of all"
-	page "its punch moves,"
+	next "Increases punching"
+	next "moves by 1.2x"
 
-	next "it spins its arms"
-	next "before Punching.@"
+	page "it spins its arms"
+	next "before Punching"
+    next "to Train.@"
